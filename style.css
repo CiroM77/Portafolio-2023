@@ -200,12 +200,15 @@ body{
     font-weight: 500;
 }
 
-#icon-ang{
+#icon-tec{
     max-height: 100px;
 }
  
-#video-ang{
-   max-height: 500px;
+#ang-img{
+   /* max-height: 450px; */
+   background-image: url(img/graphic-design-studio-g7dc8117fa_1920.jpg);
+   background-position: center;
+   background-size: 200%;
    
 }
  
@@ -227,6 +230,13 @@ body{
     color: #333;
     font-weight: 500;
 }
+
+#java-img{
+    background-image: url(img/IMG_20220502_124802500.jpg);
+    background-size: 100%;
+    background-position: center;
+    
+}
  
 /* DATA */
  
@@ -246,6 +256,10 @@ body{
 #data-text #cont-text{
     color: #333;
     font-weight: 500;
+}
+
+#video-data{
+    max-height: 450px;
 }
  
  /* IA */
@@ -267,14 +281,51 @@ body{
     font-weight: 500;
 }
  
+#bot-img{
+    background-image: url(img/cirocba.jpg);
+    background-size: 100%;
+    background-position: center;
+}
  
 /* FONOAUDIOLOGIA */
  
-#particles-js{
-    height: 500px;
+#cont-fono{
     width: 100%;
+  
 }
  
+#acerca-cont{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+ 
+}
+
+#cont-img-acer{
+
+}
+
+#cont-img-acer:hover img {
+    opacity:0.3;
+  }
+  #cont-img-acer img:hover {
+    transform:perspective(800px)       rotateY(0deg);
+    opacity:1;
+  }
+
+#img-acerca{
+    border: 12px solid white;
+    border-bottom: 30px solid white;
+    object-fit:cover;
+  
+    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s;
+  }
+
+
  
 /* FOOTER */
  
